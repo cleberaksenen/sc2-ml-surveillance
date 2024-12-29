@@ -3,8 +3,6 @@
 ## The project focuses on leveraging data science to monitor emerging SARS-CoV-2 lineages through an optimized qPCR protocol and machine learning algorithms. The approach combines genomic analysis with ML models, such as SVM, to identify variants with high accuracy, highlighting the BE.9 lineage. It is a scalable and cost-effective solution, particularly useful in resource-limited regions, providing a practical alternative to full genomic sequencing. The methodology is versatile and applicable to other pathogens with relevant molecular signatures.
 The project is published in: https://pubs.acs.org/doi/10.1021/acs.analchem.4c04492
 
-## ----------------------------------------------------------------------------------------------------------------------------
-
 
 # Development:
 ## Step 1 - Evaluation of molecular signatures to differentiate SARS-CoV-2 lineages (BE.9 and non-BE.9)
