@@ -1,17 +1,29 @@
-# Enhancing SARS-CoV-2 Surveillance with qPCR Protocols and Machine Learning
+# 🧬 Enhancing SARS-CoV-2 Surveillance with qPCR Protocols and Machine Learning
 
-## The project focuses on leveraging data science to monitor emerging SARS-CoV-2 lineages through an optimized qPCR protocol and machine learning algorithms. The approach combines genomic analysis with ML models, such as SVM, to identify variants with high accuracy, highlighting the BE.9 lineage. It is a scalable and cost-effective solution, particularly useful in resource-limited regions, providing a practical alternative to full genomic sequencing. The methodology is versatile and applicable to other pathogens with relevant molecular signatures.
-The project is published in: https://pubs.acs.org/doi/10.1021/acs.analchem.4c04492
+This project integrates data science, molecular biology, and machine learning to enhance SARS-CoV-2 lineage surveillance through an optimized qPCR protocol and advanced classification models. By combining genomic analysis with machine learning (SVM, Logistic Regression, and Gradient Boosting), it enables highly accurate variant identification, focusing on the BE.9 lineage.
+
+This methodology is scalable, cost-effective, and particularly useful in resource-limited settings, offering a practical alternative to whole-genome sequencing. Additionally, it is a versatile approach, adaptable to other pathogens with relevant molecular signatures.
+
+## 📌 Published in: https://pubs.acs.org/doi/10.1021/acs.analchem.4c04492
 
 
-# Development:
-## Step 1 - Evaluation of molecular signatures to differentiate SARS-CoV-2 lineages (BE.9 and non-BE.9)
+## 🚀 Development Workflow
+### Step 1 – Molecular Signature Evaluation
+Analysis of key genomic markers to differentiate BE.9 from non-BE.9 SARS-CoV-2 lineages.
+#### 📌 Key Insight: Identification of a unique deletion within the BE.9 lineage, serving as a molecular signature.
+
 ![deletion-detection](https://github.com/user-attachments/assets/14633ce6-1ff9-4f1f-a060-47ca667c754e)
 
-## Step 2 - Development of qPCR-based assays for differentiating between lineages
+### Step 2 – qPCR Assay Development
+Design and optimization of a qPCR-based protocol to detect and differentiate BE.9 and non-BE.9 lineages efficiently.
+#### 📌 Outcome: A rapid, cost-effective, and highly specific qPCR assay for SARS-CoV-2 variant detection.
+
 ![qPCR-protocol](https://github.com/user-attachments/assets/38a9f98f-b857-4d19-8919-21ab9635ce48)
 
-## Step 3 - Development of Machine Learning-based models for automating the analysis of qPCR curves
+### Step 3 – Machine Learning for qPCR Curve Analysis
+Development of machine learning models to automate and enhance the interpretation of qPCR amplification curves, reducing human error and improving accuracy.
+#### 📌 Key Findings: The SVM model demonstrated the highest overall accuracy (97.4%), with strong precision and recall scores across all categories.
+
 | Algorithm           | BE.9 Precision | non-BE.9 Precision | Inconclusive Precision | BE.9 Recall | non-BE.9 Recall | Inconclusive Recall | BE.9 F1-score | non-BE.9 F1-score | Inconclusive F1-score | Accuracy |
 |---------------------|----------------|--------------------|------------------------|-------------|------------------|---------------------|---------------|-------------------|-----------------------|----------|
 | SVM                 | 0.991          | 0.992              | 0.936                  | 0.974       | 0.968            | 0.981               | 0.983         | 0.980             | 0.960                 | 0.974    |
@@ -20,4 +32,14 @@ The project is published in: https://pubs.acs.org/doi/10.1021/acs.analchem.4c044
 
 ![ML-model](https://github.com/user-attachments/assets/50ef8097-ed0f-4ca4-88b4-d42d91a5c6fd)
 
+### 📌 Key Contributions
+✅ Cost-effective qPCR-based surveillance for SARS-CoV-2 variants
+
+✅ Machine learning-enhanced interpretation of qPCR data
+
+✅ High accuracy in BE.9 variant detection (97.4%)
+
+✅ Scalable solution applicable to other pathogens
+
+For more details, check out the full publication: ACS Analytical Chemistry
 
